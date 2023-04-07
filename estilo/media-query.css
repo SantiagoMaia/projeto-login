@@ -1,0 +1,12 @@
+@charset "utf8";
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+body{
+    background-image: linear-gradient(to top right, #2734aa, #df0914);
+}
+#login{
+    width: 80vw;
+}
+}
