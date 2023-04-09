@@ -8,5 +8,37 @@ body{
 }
 #login{
     width: 80vw;
+    height: 50vh;
+
 }
+#imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    background-position: 80%;
+}
+#formulario{
+    float: right ;
+    width: 70%;
+}
+}
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top right, #2734aa, #df0914);
+    }
+    #login{
+        width: 900px;
+        height: 60vh;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+
 }
