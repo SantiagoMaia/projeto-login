@@ -8,7 +8,7 @@ body{
 }
 #login{
     width: 80vw;
-    height: 50vh;
+    height: 300px
 
 }
 #imagem{
@@ -29,7 +29,7 @@ body{
     }
     #login{
         width: 900px;
-        height: 60vh;
+        height: 300px;
     }
     #imagem{
         float: right;
