@@ -22,7 +22,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    width: 250px;
+    width: 260px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
@@ -30,6 +30,8 @@ main{
     transition: width 0.4s, heigth 0.4s;
     transition-timing-function: ease;
 }
+
+
 #imagem{
     display: block;
     height: 200px;
@@ -41,4 +43,12 @@ main{
 #formulario{
     display: block;
     padding: 10px;
+    padding: 10px;
 }
+#formulario > h1{
+    text-align: center;
+}
+#formulario > p{
+    padding: 10px;
+}
+
